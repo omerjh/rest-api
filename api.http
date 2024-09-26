@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 
 
-### Crear una pelicula con post
+### actualiza una pelicula inexistente
 PATCH http://localhost:3000/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
 Content-Type: application/json
 
@@ -41,6 +41,6 @@ Content-Type: application/json
   "year": 2020
 }
 
-### Crear una pelicula con post
-DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+### elimina una pelicula
+DELETE http://localhost:3000/movies/75d7f468-4b70-49b6-8795-546d28e5d055
 Content-Type: application/json
