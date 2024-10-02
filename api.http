@@ -2,7 +2,7 @@
 GET http://localhost:3000/movies
 
 ### Recupera una pelicula por id
-GET http://localhost:3000/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
+GET http://localhost:3000/movies/9e6106f0-848b-4810-a11a-3d832a5610f9
 
 ### Recupera todas las peliculas por un género
 GET http://localhost:3000/movies?genre=Action
@@ -34,13 +34,13 @@ Content-Type: application/json
 
 
 ### actualiza una pelicula inexistente
-PATCH http://localhost:3000/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
+PATCH http://localhost:3000/movies/71e9cb8f-294c-4725-82a5-37500867fe13
 Content-Type: application/json
 
 {
-  "year": 2020
+  "rate": 5.3
 }
 
 ### elimina una pelicula
-DELETE http://localhost:3000/movies/75d7f468-4b70-49b6-8795-546d28e5d055
+DELETE http://localhost:3000/movies/71e9cb8f-294c-4725-82a5-37500867fe13
 Content-Type: application/json

@@ -1,11 +1,13 @@
 {
-  "name": "clase-3",
+  "name": "clase-5",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "dev:1": "nodemon app.js",
+    "start:mysql": "node server-with-mysql.js",
+    "start:local": "node server-with-local.js",
     "start": "node app.js"
   },
   "keywords": [],
@@ -20,7 +22,10 @@
   },
   "dependencies": {
     "cors": "2.8.5",
-    "express": "4.19.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "6.9.0",
+    "mysql2": "^3.11.3",
     "zod": "3.22.4"
   }
 }
